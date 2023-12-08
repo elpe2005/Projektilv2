@@ -10,7 +10,7 @@ public class DeleteBullet : MonoBehaviour
     }
     IEnumerator waiter()
     {  
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(4);
         Object.Destroy(this.gameObject);
     }
 }
